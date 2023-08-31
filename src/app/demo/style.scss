@@ -1,0 +1,16 @@
+h3 {
+    margin: 0 0 10px;
+  }
+  
+  pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+  }
+
+  ::ng-deep ngb-modal-backdrop.modal-backdrop{
+    z-index: 1040 !important;
+  }
+
+  ::ng-deep ngb-modal-window.modal {
+    z-index: 1069;
+  }

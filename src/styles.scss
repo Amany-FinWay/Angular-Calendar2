@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "../node_modules/angular-calendar/css/angular-calendar.css";
+::ng-deep ngb-modal-backdrop.modal-backdrop{
+  z-index: 1040 !important;
+}
+
+::ng-deep ngb-modal-window.modal {
+  z-index: 1069;
+}
